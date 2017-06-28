@@ -1,8 +1,16 @@
 :root {
-    --mdc-theme-primary: #0072ba;
+    --mdc-theme-primary: white;
+    --mdc-theme-accent: #ff4081;
+    --mdc-theme-background: #0072ba;
+    --mdc-theme-text-primary-on-primary: black;
 }
 .font-bold {
     font-weight: bolder;
+}
+
+body {
+    background-color: var(--mdc-theme-background);
+    color: white;
 }
 
 .mdc-select {
