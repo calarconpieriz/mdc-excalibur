@@ -36,3 +36,31 @@ ul {
 ul li {
     margin-top: 3%;
 }
+
+.mdc-foo {
+  color: black;
+}
+.mdc-foo--theme-dark, .mdc-theme--dark .mdc-foo {
+  color: white;
+}
+.mdc-foo__bar {
+  background: black;
+}
+.mdc-foo--theme-dark .mdc-foo__bar, .mdc-theme--dark, .mdc-theme--dark .mdc-foo__bar {
+  background: #0073bb;
+  color: #fff;
+}
+
+.mdc-foo--disabled {
+  opacity: .38;
+}
+
+.mdc-foo--theme-dark.mdc-foo--disabled,
+.mdc-theme--dark .mdc-foo--disabled {
+  opacity: .5;
+}
+
+.mdc-textfield__input, .mdc-textfield__input {
+    color: white;
+    font-weight: bold;
+}
