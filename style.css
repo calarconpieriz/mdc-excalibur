@@ -1,15 +1,15 @@
 :root {
-    --mdc-theme-primary: white;
-    --mdc-theme-accent: #ff4081;
-    --mdc-theme-background: #0072ba;
+    --mdc-theme-primary: #0072ba;
+    --mdc-theme-accent: white;
     --mdc-theme-text-primary-on-primary: black;
+    --mdc-theme-text-primary-on-accent: black;
 }
 .font-bold {
     font-weight: bolder;
 }
 
 body {
-    background-color: var(--mdc-theme-background);
+    background-color: var(--mdc-theme-primary);
     color: white;
 }
 
@@ -43,4 +43,9 @@ ul {
 
 ul li {
     margin-top: 3%;
+}
+
+.mdc-button {
+    height: 55px;
+    width: 200px;
 }
